@@ -1,0 +1,18 @@
+version: 2
+
+builds:
+  - goos:
+    - linux
+    - darwin
+    - windows
+
+brews:
+  - repository:
+      owner: mrtimp
+      name: homebrew-formulas
+    directory: Formula
+    homepage: "https://github.com/mrtimp/aws-credentials-reporter"
+    description: "Retrieves a credential reports for multiple AWS accounts"
+    commit_author:
+      name: mrtimp
+      email: timp@unfuddle.nz
